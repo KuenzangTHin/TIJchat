@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "542566610732",
+    "firebase_url": "https://tijchat.firebaseio.com",
+    "project_id": "tijchat",
+    "storage_bucket": "tijchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542566610732:android:d40bd38253b2ac22",
+        "android_client_info": {
+          "package_name": "com.tijchat.tijchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542566610732-p1qsa8ftued110eu440blbviulbdpq8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tijchat.tijchat",
+            "certificate_hash": "4adb1cfc7f805757f5406058e639ecaba0634414"
+          }
+        },
+        {
+          "client_id": "542566610732-d62ka8jc3d3jllblsg92t81tbh53n91p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_Eb7yuKOieEFJcae7wwsw3q_qD3f2IwA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542566610732-d62ka8jc3d3jllblsg92t81tbh53n91p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.tijchat.tijchat.View.Profile">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/profiledef"
+        android:id="@+id/profile_userImage"/>
+
+    <TextView
+        android:id="@+id/profile_userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_userImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:text="UserName"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profile_userStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Status"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/profile_userName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <Button
+        android:id="@+id/profile_userRequest"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:text="Request"
+        android:textSize="16sp"
+        android:layout_below="@+id/profile_userStatus"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/profile_userDecline"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="Decline"
+        android:textSize="16sp"
+        android:layout_below="@+id/profile_userRequest"
+        android:layout_alignLeft="@+id/profile_userRequest"
+        android:layout_alignStart="@+id/profile_userRequest" />
+
+
+</RelativeLayout>
